@@ -1,5 +1,5 @@
 <?php
 
-include_once("scoosi.html");
+include_once("Scoosi.html");
 
 ?>
