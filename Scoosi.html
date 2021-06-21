@@ -17,6 +17,9 @@
         
 <img src="Southwark.jpg" width="1280" height="1080">
     
+    <button onclick = "openButton()" id = "botxo-chat-5f597341-59f8-4629-aa8d-49424a1618fa">
+        Click me!  
+</button> 
         
     </body>
     
@@ -45,6 +48,15 @@ initCertainlyWidget({
       speechEnabled: 1, // Integer. By default, it is 0 (disabled).
     },
   });
+    function openButton() {
+        certainly.widgetStatus(
+          {
+            action: "open",
+            webchatKey: "1",
+          },
+          callback
+        );
+      }
 </script>
     
 </html>
